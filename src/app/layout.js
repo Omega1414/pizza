@@ -10,9 +10,7 @@ import { usePathname } from "next/navigation"
 import './globals.css';
 import {Bangers, Quicksand, Roboto_Condensed} from 'next/font/google'
 import SplashScreen from "./components/SplashScreen";
-export const metadata = {
-  title: 'PizzaAl',
-}; 
+
 const quicksand = Quicksand({
   subsets: ['latin'],
   variable: '--font-quicksand'
